@@ -1,0 +1,11 @@
+https://github.com/Thimraj/ShivaWebfiles.git
+pipeline {
+    agent any
+    stages {
+        stage("Build") {
+            steps {
+                echo "Hi this is pipeline job"
+            }
+        }
+    }
+}

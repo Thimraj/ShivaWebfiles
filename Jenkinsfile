@@ -47,9 +47,9 @@ node{
         mail bcc: 'devopstrainingblr@gmail.com', body: '''Build Done.
 
         Regards,
-        Mithun Technologies,
+        M T R Technologies,
         9980923226.
-        ''', cc: 'devopstrainingblr@gmail.com', from: 'devopstrainingblr@gmail.com', replyTo: 'devopstrainingblr@gmail.com', subject: 'Duild done', to: 'devopstrainingblr@gmail.com'
+        ''', cc: 'devopstrainingblr@gmail.com', from: 'thimrajdevops@gmail.com', replyTo: 'm.thimraj@gmail.com', subject: 'Build done', to: 'iamthimmarajuaws@gmail.com'
     }
     
     stage('SendSlackNotifications'){
